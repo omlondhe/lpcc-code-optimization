@@ -1,0 +1,17 @@
+inline void inlineFunction() {
+    int a = 1;
+    int b = 2;
+    print(a + b);
+}
+
+inline void anotherInlineFunction() {
+    int x = 1, y = 2;
+    int z = (x * y);
+}
+
+int main() {
+    print("This is the application")
+    inlineFunction();
+    anotherInlineFunction();
+    return 0;
+}
